@@ -13,6 +13,6 @@ print (str(overall_hours) + ' hours');
 print ('\nTime difference between two times (date is not considered)')
 hours = (diff.seconds) / 3600  
 print (str(hours) + ' Hours')
-minutes = (diff.seconds) / 60
+minutes=(diff.seconds) / 60
 print (str(minutes) + ' Minutes')
 print (str(diff.seconds) + ' secs')
