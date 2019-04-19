@@ -5,5 +5,5 @@ hour = time // 3600
 time %= 3600
 minutes = time // 60
 time %= 60
-seconds = time
+seconds=time
 print("d:h:m:s-> %d:%d:%d:%d" % (day, hour, minutes, seconds))
