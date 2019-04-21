@@ -1,7 +1,7 @@
-num = int(input('How many numbers: '))
+number = int(input('How many numbers: '))
 total_sum = 0
-for n in range(num):
+for n in range(number):
     numbers = float(input('Enter number : '))
     total_sum += numbers
-avg = total_sum/num
-print('Average of ', num, ' numbers is :', avg)
+avg = total_sum/number
+print('Average of ', number, ' numbers is :', avg)
