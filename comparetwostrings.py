@@ -1,6 +1,6 @@
-print("Enter 'x' for exit.")
+print("Enter 'q' for exit.")
 string1 = input("Enter first string: ")
-if string1 == 'x':
+if string1 == 'q':
     exit();
 else:
     string2 = input("Enter second string: ")
