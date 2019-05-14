@@ -1,4 +1,4 @@
-s=str(input())
+s=str(input("Enter a string":))
 count=0
 for i in range (0,len(s)):
 	if s[i]=="1" or s[i]=="0":
